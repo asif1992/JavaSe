@@ -1,6 +1,6 @@
 
 // created by asif mulani 
-// created date 27/11/2018
+// created date 25/11/2018
 package com.javabasics.constructors;
 
 public class GetterSetter {
