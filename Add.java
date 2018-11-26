@@ -8,6 +8,8 @@ class Add {
         int sum = first + second;
 
         System.out.println("The sum is: " + sum);
+	    int sub=first-secound;
+	    System.out.println("The sub is " +sub);
     }
 }
 	
