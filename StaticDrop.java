@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class StaticDrop {
 	WebDriver driver;
-	public void GetScreen(String screen) throws IOException
+	public void GetScreen(String screen) throws IOException //screeen shot to the method
 	{
 		TakesScreenshot ts=(TakesScreenshot) driver;
 		File src=ts.getScreenshotAs(OutputType.FILE);
@@ -51,13 +51,13 @@ public class StaticDrop {
 		pass.sendKeys("123456798");
 		
 		
-		Select day=new Select(driver.findElement(By.id("day")));
+		Select day=new Select(driver.findElement(By.id("day")));//static drop down 
 		day.selectByIndex(15);
 		
 		Select month=new Select(driver.findElement(By.id("month")));
 		month.selectByIndex(5);
 		
-		Select year= new Select (driver.findElement(By.id("year")));
+		Select year= new Select (driver.findElement(By.id("year")));//static drop down by visible text
 		year.selectByVisibleText("2016");
 		
 		WebElement rmale=driver.findElement(By.id("u_0_a"));
