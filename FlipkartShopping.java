@@ -55,7 +55,7 @@ public class FlipkartShopping {
 		
 		WebElement redmi=driver.findElement(By.partialLinkText("Redmi 6 (Rose Gold, 32 GB)"));
 		
-		redmi.click();
+		redmi.click();//
 		Thread.sleep(5000);
 		ScreenShot("redmimobile");
 		driver.close();
